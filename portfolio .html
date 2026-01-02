@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="G. Sameera - CSE Student Portfolio">
+    <meta name="keywords" content="Computer Science, Python, SQL, AI">
+    <meta name="author" content="G. Sameera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G. Sameera | CSE Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER / HERO -->
+<header class="header">
+    <div class="header-content">
+        <img src="/jan1.jpeg" alt="G.Sameera"  width="200" height="150">
+        <h1>G. Sameera</h1>
+        <p class="role">Computer Science & Engineering Student</p>
+        <p class="location">Porumamilla, Kadapa, Andhra Pradesh, India</p>
+        <p class="contact">
+            📧 samerra.0909@gmail.com | 📞 +91 8309331261
+        </p>
+    </div>
+</header>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">Sameera</div>
+
+        <div class="hamburger" id="hamburger">☰</div>
+
+        <div class="nav-menu" id="navMenu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="container">
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+        <h2>Professional Summary</h2>
+        <p>
+            I am a <strong>Computer Science and Engineering</strong> student with a strong interest in
+            <strong>Python, SQL, Data Engineering, and Artificial Intelligence</strong>.
+            I am passionate about learning new technologies, solving real-world problems,
+            and building academic and personal projects.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card">
+        <h2>Technical Skills</h2>
+
+        <div class="grid">
+            <div>Python</div>
+            <div>Advanced SQL</div>
+            <div>Java</div>
+            <div>C Programming</div>
+            <div>HTML5</div>
+            <div>CSS3</div>
+            <div>JavaScript (Basics)</div>
+            <div>Data Structures (Basics)</div>
+            <div>Artificial Intelligence (Basics)</div>
+            <div>Machine Learning (Intro)</div>
+            <div>Git & GitHub</div>
+            <div>MS Excel</div>
+        </div>
+
+        <h3 style="margin-top:20px;">Soft Skills</h3>
+        <div class="grid">
+            <div>Communication Skills</div>
+            <div>Team Work</div>
+            <div>Problem Solving</div>
+            <div>Time Management</div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="card">
+        <h2>Education</h2>
+
+        <article>
+            <h3>B.Tech – Computer Science & Engineering</h3>
+            <span>KSRM College of Engineering, Kadapa</span>
+            <p>Currently pursuing undergraduate degree.</p>
+        </article>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="card">
+        <h2>Academic & Personal Projects</h2>
+
+        <ul>
+            <li>
+                <strong>Student Attendance Management System</strong> –  
+                Python-based application to manage, track, and generate attendance reports.
+            </li>
+
+            <li>
+                <strong>Personal Portfolio Website</strong> –  
+                Responsive portfolio developed using HTML, CSS, and basic JavaScript.
+            </li>
+
+            <li>
+                <strong>Library Management System</strong> –  
+                Console-based project using Python and SQL for managing book records.
+            </li>
+
+            <li>
+                <strong>Python Automation Scripts</strong> –  
+                Automated tasks like file handling, string processing, and data validation.
+            </li>
+
+            <li>
+                <strong>Mini AI Chatbot (Basic)</strong> –  
+                Rule-based chatbot implemented in Python to understand AI fundamentals.
+            </li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2025 G. Sameera | Student Portfolio</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
+
+    hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
+});
+</script>
+
+</body>
+</html>
